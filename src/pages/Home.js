@@ -10,7 +10,7 @@ function Home() {
   return (
     <div className="home">
 
-      
+      <h4> .. Jasons' Json is ajacent to Johnsons' Json .. Try this tongue twister</h4>
       <div className="about">
       
         <img src={logo} width="200" height="200"></img>
