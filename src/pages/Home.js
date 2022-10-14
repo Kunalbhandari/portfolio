@@ -12,6 +12,7 @@ function Home() {
 
       
       <div className="about">
+      <h4> .. Jasons' Json is ajacent to Johnsons' Json .. Try this tongue twister</h4>
         <img src={logo} width="200" height="200"></img>
         <h2> Hi, I am Kunal Bhandari</h2>
         
