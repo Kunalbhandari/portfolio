@@ -1,32 +1,29 @@
 import React from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GithubIcon from "@material-ui/icons/GitHub";
-import { Link } from "react-router-dom";
 import "../styles/Home.css";
-import logo from"./../assets/kunal.PNG";
+import logo from "./../assets/kunal.PNG";
 
-
-function Home() {
-  return (
+const Home = () =>
     <div className="home">
 
       <h4> .. Jasons' Json is ajacent to Johnsons' Json .. Try this tongue twister</h4>
       <div className="about">
       
-        <img src={logo} width="200" height="200"></img>
+        <img src={logo} width="200" height="200" alt="logo" />
         <h2> Hi, I am Kunal Bhandari</h2>
         
         <div className="prompt">
           <p>A Software Developer With Grit To Solve, ++Increment++</p>
           <p>Connect on LinkedIn for more</p>
 
-          <Link onClick={() => window.open('https://www.linkedin.com/in/kunalbhandari21/', '_blank')}> <LinkedInIcon /> </Link>
-          <Link onClick={() => window.open('https://github.com/Kunalbhandari/', '_blank')}> <GithubIcon /> </Link>
+          <a href='https://www.linkedin.com/in/kunalbhandari21/' target='_blank' rel="noopener noreferrer"> <LinkedInIcon /> </a>
+          <a href='https://github.com/Kunalbhandari/' target='_blank' rel="noopener noreferrer"> <GithubIcon /> </a>
           
         </div>
       </div>
       <div className="skills">
-        <h1> Skills</h1>
+        <h1>Skills</h1>
         <ol className="list">
           <li className="item">
             <h2> Front-End</h2>
@@ -48,7 +45,5 @@ function Home() {
         </ol>
       </div>
     </div>
-  );
-}
 
 export default Home;
