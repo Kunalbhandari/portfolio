@@ -7,8 +7,8 @@ import logo from "./../assets/kunal.PNG";
 const Home = () =>
     <div className="home">
 
-      <h4> .. Jasons' Json is ajacent to Johnsons' Json .. Try this tongue twister</h4>
       <div className="about">
+        <h4> .. Jasons' Json is ajacent to Johnsons' Json .. Try this tongue twister</h4>
       
         <img src={logo} width="200" height="200" alt="logo" />
         <h2> Hi, I am Kunal Bhandari</h2>
