@@ -7,7 +7,7 @@ const Footer = () =>
     <div className="socialMedia">
     <a href='https://www.linkedin.com/in/kunalbhandari21' target='_blank' rel="noreferrer"> <LinkedInIcon /> </a>
     </div>
-    <p> &copy; 2022 kunalbhandari.com</p>
+    <p> &copy; 2023 kunalbhandari.com</p>
   </div>
 
 export default Footer;
