@@ -5,6 +5,7 @@ import Experiences from './pages/Experiences';
 import Blogs from './pages/Blogs';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import PageNotFound from './pages/PageNotFound';
 
 const App = () => 
   <div className='App'>
@@ -15,6 +16,8 @@ const App = () =>
         <Route path='/portfolio' element={<Home />} />
         <Route path='/experiences' element={<Experiences />} /> 
         <Route path='/blogs' element={<Blogs/>}/>
+
+        <Route path='*' element={<PageNotFound/>}/>
       </Routes>
       <Footer />
     </Router>
